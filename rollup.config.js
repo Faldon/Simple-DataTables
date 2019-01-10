@@ -15,6 +15,7 @@ export default {
         uglify()
     ],
     output: {
-        format: 'cjs'
+        format: 'iife',
+        name: 'window'
     }
 }
